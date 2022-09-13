@@ -1,0 +1,18 @@
+.button{
+    background-color: grey;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 5px 25px black;
+    color: #FAFAFA;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 auto;
+    align-items:center;
+    height: 64px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+

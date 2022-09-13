@@ -1,0 +1,26 @@
+.EmptyToDo-container{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.EmptyToDoImg{
+    width: 70vw;
+    height: 45vh;
+}
+
+.EmptyToDo-container p {
+    color: #F48F9D;
+    font-weight: bold;
+}
+
+
+@media (min-width: 768px){
+    .EmptyToDo-container p {
+        margin-top: 50px;
+    }
+}

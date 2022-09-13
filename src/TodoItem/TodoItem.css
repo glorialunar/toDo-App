@@ -1,0 +1,58 @@
+.Item {
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px;
+    margin-top: 0px;
+    box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
+}
+
+.ItemP {
+    margin: 24px 0 24px 24px;
+    width: calc(100% - 120px);
+    font-size: 18px;
+    line-height: 24px;
+    overflow:auto;
+}
+
+.ItemP--completed {
+    text-decoration: line-through;
+    color: gray;
+} 
+
+.Icon {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 48px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.IconCheck {
+    position: absolute;
+    left: 12px;
+    color: gray;
+}
+
+.IconCheck--active {
+    color: #4caf50;
+}
+
+.IconDelete {
+    position: absolute;
+    top: -24px;
+    right: 0;
+    color: #F48F9D;
+}
+
+.IconDelete:hover {
+    transform: scale(1.2); /* This adds a hover effect */
+    transition: transform .2s cubic-bezier(0, 0.75, 0, 1);
+    
+}

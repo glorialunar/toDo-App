@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif,
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root{
+  width: 100%;
+  margin: 0 auto;
+  /* display: grid;
+  grid-template-columns: 600px;
+  padding: 0, 40px;
+  justify-content: center; */
+}
+
+/* @media (max-width: 560px) {
+  #root{
+      grid-template-columns: 100%;
+      
+  }
+} */
